@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="8ce11eef-6909-4aba-989c-23ae1e222ae7" name="file-manager">
+        <fileTransfer rootFolder="/var/www/html/sheepbild.me/file-manager" accessType="SFTP" host="217.160.63.219" port="22" sshConfigId="f4c125a4-6a7b-4922-9abf-1547b059eb30" sshConfig="root@217.160.63.219:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="d0171c9f-99a7-4fca-8697-fb1d872a6ca0" name="ssh_key">
+        <fileTransfer rootFolder="/root/.ssh" accessType="SFTP" host="217.160.63.219" port="22" sshConfigId="f4c125a4-6a7b-4922-9abf-1547b059eb30" sshConfig="root@217.160.63.219:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="604ef113-ca79-4035-83dc-b6640bf79f62" name="/images/communities [PROD !!] BTC Map">
+        <fileTransfer rootFolder="/srv/http/static.btcmap.org/images/communities/btcmap/communities" accessType="SFTP" host="88.80.189.127" port="22" sshConfigId="ebf57c3b-ccfc-466b-8a21-f3dd91777bf6" sshConfig="root@88.80.189.127:22 agent" authAgent="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

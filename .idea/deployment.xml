@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" remoteFilesAllowedToDisappearOnAutoupload="false">
+  <component name="PublishConfigData" serverName="file-manager" remoteFilesAllowedToDisappearOnAutoupload="false">
     <serverData>
+      <paths name="/images/communities [PROD !!] BTC Map">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="/mnt/sauvegardes Algoé SIRH">
         <serverdata>
           <mappings>
@@ -30,6 +37,13 @@
           </mappings>
         </serverdata>
       </paths>
+      <paths name="asop.algoe.fr">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="classification.isdea.info">
         <serverdata>
           <mappings>
@@ -37,7 +51,21 @@
           </mappings>
         </serverdata>
       </paths>
+      <paths name="file-manager">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="file-manager.sheepbild.me">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="ssh_key">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
